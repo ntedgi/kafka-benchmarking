@@ -1,0 +1,21 @@
+{
+    "mysql": {
+      "master": "dev-aug22-ram-sarfian-instance.cro7ngosdr6q.eu-west-1.rds.amazonaws.com
+  ",
+      "slaves": {
+        "common": [
+          "dev-aug22-ram-sarfian-instance.cro7ngosdr6q.eu-west-1.rds.amazonaws.com
+  "
+        ],
+        "api_raw": [
+          "dev-aug22-ram-sarfian-instance.cro7ngosdr6q.eu-west-1.rds.amazonaws.com
+  "
+        ]
+      },
+      "numberOfRetries": 1,
+      "timeout": 10000,
+      "user": "app",
+      "password": "g@nDur@$",
+      "poolConnectionSize": 5
+    }
+  }
